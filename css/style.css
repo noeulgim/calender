@@ -32,7 +32,7 @@ button {
 
 /* #contents */
 #contents {
-  margin-left: 57.5px; 
+  margin-left: 57.5px;
 }
 
 #header, #extra-section {
@@ -51,6 +51,10 @@ button {
   width: 45px;
   height: 45px;
   background: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 24px;
+  text-align: center;
+  line-height: 45px;
 }
 
 #month, #check-btn {
