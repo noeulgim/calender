@@ -39,11 +39,16 @@ button {
   overflow: hidden;
 }
 
+#header {
+  height: 50px;
+}
 
 #header > p {
   display: inline-block;
   font-size: 35px;
   font-weight: bold;
+  margin-right: 50px;
+  top: 30px;
 }
 
 .choose-btn {
