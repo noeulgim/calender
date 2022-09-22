@@ -3,8 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="./css/initial.min.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-
+    <div id="wrap">
+      <div id="side-bar"></div>
+      <div id="contents">
+        <div id="header">
+          <p>calendar</p>
+          <div class="choose-btn">W</div>
+          <div class="choose-btn">M</div>
+          <div class="choose-btn">Y</div>
+          <div id="month">
+            <button><</button>
+            <span>9</span>
+            <button>></button>
+          </div>
+        </div>
+        <div id="extra-section">
+          <span>ESSENTIAL</span>
+          <div id="essentialIcon"></div>
+          <div id="check-btn">
+            <button class="check-btn"></button>
+            <span>IN</span>
+            <button class="check-btn"></button>
+            <span>OUT</span>
+          </div>
+        </div>
+        <div id="calendar"></div>
+      </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+		<script src=./js/common.js></script>
   </body>
 </html>
