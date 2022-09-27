@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #78E1C8;
   font-family: 'Archivo';
 }
@@ -11,7 +14,13 @@ button {
   border-radius: 50%;
 }
 
+.clicked {
+  background: #78E1C8;
+}
+
 #wrap {
+  position: absolute;
+  top: calc(50% - 379px);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -63,17 +72,17 @@ button {
   line-height: 45px;
 }
 
-#month, #check-btn {
+#calendar-btn, #check-btn {
   float: right;
 }
 
-#month span {
+.calendar-month {
   font-size: 50px;
   font-weight: bold;
 }
 
-#month button {
-
+.calendar-year {
+  display: none;
 }
 
 #extra-section {
@@ -95,6 +104,7 @@ button {
 }
 
 /* #calendar */
+
 #calendar table {
   width: 1011px;
   height: 564px;
@@ -104,6 +114,10 @@ button {
 #calendar table th , #calendar table td {
   border: 4px solid #fff;
   background: #f3f3f3;
+}
+
+#calendar table td:hover {
+  background: #f9f9f9;
 }
 
 #calendar table th {
