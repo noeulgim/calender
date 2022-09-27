@@ -41,6 +41,7 @@ button {
 
 #header {
   height: 50px;
+  margin-bottom: 20px;
 }
 
 #header > p {
@@ -75,8 +76,22 @@ button {
 
 }
 
+#extra-section {
+
+}
+
 #essentialIcon {
   display: inline-block;
+  height: 36px;
+}
+
+#check-btn {
+  font-size: 20px;
+}
+
+.check-btn {
+  width: 20px;
+  height: 20px;
 }
 
 /* #calendar */
